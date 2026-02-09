@@ -72,12 +72,13 @@ const About = () => {
                             className="Welcome-box px-[15px] w-[90%] md:w-3/4 py-[8px] z-[20] brder mb-[20px] border-[#7042f88b] opacity-[0.9]"
                         >
                             <h1 className="Welcome-text text-[16px] w-full text-justify">
-                                I'm a Full Stack Developer and Computer Science undergraduate at IIIT Kota,
-                                focused on building scalable, high-performance web applications and AI-powered systems. I specialize in React, Next.js, Node.js, and modern backend architectures with strong foundations in Data Structures, System Design, and APIs.
+                               I&apos;m a Full Stack Developer and Computer Science undergraduate at IIIT Kota,
+                               focused on building scalable, high-performance web applications and AI-powered systems. I specialize in React, Next.js, Node.js, and modern backend architectures with strong foundations in Data Structures, System Design, and APIs.
+                               
+                               I&apos;ve developed production-ready platforms including an AI-driven finance tracker and a full-stack project management system, with emphasis on performance optimization, secure authentication, and real-time features.
+                               
+                               I actively practice competitive programming (1700+ LeetCode rating) and continuously strengthen my problem-solving and system design skills while exploring AI-integrated products.
 
-                                I've developed production-ready platforms including an AI-driven finance tracker and a full-stack project management system, with emphasis on performance optimization, secure authentication, and real-time features. 
-
-                                I actively practice competitive programming (1700+ LeetCode rating) and continuously strengthen my problem-solving and system design skills while exploring AI-integrated products.
                             </h1>
                         </motion.div>
                     )}
