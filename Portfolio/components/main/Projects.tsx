@@ -14,7 +14,7 @@ const Projects = () => {
              </span>
            </h1>
 
-            <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+            <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-10 px-10 items-stretch">
                 <ProjectCard
                     src="/Welth.png"
                     title="Welth-Full Stack AI Finance Platform"

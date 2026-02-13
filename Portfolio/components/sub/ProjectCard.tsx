@@ -10,22 +10,25 @@ interface Props {
 
 const ProjectCard = ({ src, title, description, liveUrl }: Props) => {
   return (
-    <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
+    <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] h-full flex flex-col">
       <Image
         src={src}
         alt={title}
         width={1000}
-        height={1000}
-        className="w-full object-contain"
+        height={600}
+        className="w-full h-[220px] object-cover"
       />
 
-      <div className="relative p-4">
+      <div className="relative p-4 flex flex-col flex-grow">
         <h1 className="text-2xl font-semibold text-white">{title}</h1>
-        <p className="mt-2 text-gray-300">{description}</p>
+        <p className="mt-2 text-gray-300 text-justify leading-relaxed tracking-wide">
+  {description}
+</p>
+
 
         {/* ✅ Try App Button */}
         {liveUrl && (
-      <div className="flex justify-center mt-5">
+      <div className="flex justify-center mt-auto pt-5">
         <a
           href={liveUrl}
           target="_blank"
