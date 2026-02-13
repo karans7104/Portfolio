@@ -91,9 +91,9 @@ export const Socials = [
         link: "https://github.com/karans7104",
     },
     {
-        name: "MuLearn",
-        src: "/mulearn.svg",
-        link: "",
+        name: "codeforces",
+        src: "/code-forces.svg",
+        link: "https://codeforces.com/profile/karan197",
     },
 ];
 

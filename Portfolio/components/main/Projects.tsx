@@ -18,29 +18,19 @@ const Projects = () => {
                 <ProjectCard
                     src="/Welth.png"
                     title="Welth-Full Stack AI Finance Platform"
-                    description=" Built an AI-driven personal finance platform enabling automated expense categorization and financial insights,
-                                  supporting 100+ simulated user sessions, reducing page load time by 30%.
-                                  Integrated Gemini AI to generate smart budgeting suggestions achieving 85%+ accuracy in expense prediction during
-                                  testing.
-                                  Developed secure authentication and real-time dashboard analytics improving financial tracking efficiency by 60%."
+                    description=" Built using Next.js, Tailwind, Gemini AI, Prisma, and Shadcn UI, this AI-driven personal finance platform automates expense categorization and provides financial insights for over 100 simulated user sessions. By integrating Gemini AI, the system achieves 85%+ accuracy in expense prediction and utilizes real-time dashboard analytics to improve financial tracking efficiency by 60% while reducing page load times by 30%."
                     liveUrl="https://welth-zeta-nine.vercel.app/"              
                 />
                 <ProjectCard
                     src="/space_theme.png"
                     title="Space Themed Website"
-                    description=" Implemented responsive UI ensuring seamless experience across mobile, tablet, and desktop devices improving
-                                   accessibility by 100%.  
-                                   Achieved sub-1.5s page load time using optimized assets and Next.js performance features.
-                                   Deployed live portfolio with SEO optimization increasing discoverability and professional visibility."
-                    liveUrl="https://welth-zeta-nine.vercel.app/"               
+                    description=" Developed with Next.js, React, and Tailwind CSS, this portfolio platform features a responsive UI that ensures a seamless experience across all devices, improving accessibility by 100%. The application achieves a sub-1.5s page load time through Next.js performance features and includes SEO optimization to increase professional visibility and discoverability."
+                    liveUrl="https://portfolio-psi-wine-47.vercel.app/"               
                 />
                 <ProjectCard
                     src="/projectflow.jpeg"
                     title="ProjectFlow — Full Stack Project Management System"
-                    description=" Engineered scalable project management platform supporting task tracking for 200+ simulated team operations,reducing
-                                  project tracking time by 35%.
-                                  Implemented role-based access control and real-time task collaboration improving workflow efficiency by 50%.
-                                  Deployed production-ready application with optimized API response time under 150ms during stress testing."
+                    description=" This scalable platform, engineered with the PERN Stack (PostgreSQL, Express, React, and Node.js), supports task tracking for 200+ simulated team operations. The system features role-based access control and real-time collaboration that improved workflow efficiency by 50% and maintained optimized API response times under 150ms during stress testing."
                     liveUrl="https://welth-zeta-nine.vercel.app/"              
                 />
             </div>

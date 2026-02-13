@@ -32,7 +32,7 @@ const ProjectCard = ({ src, title, description, liveUrl }: Props) => {
           rel="noopener noreferrer"
           className="py-2 px-6 button-primary text-white text-center rounded-lg z-40"
         >
-          Try App
+          View Live
         </a>
       </div>
     )}
